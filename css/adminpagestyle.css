@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header {
+    background-color:#2B50AA;
+    padding: 20px 20px;
+   display: flex;
+   justify-content: space-between;
+    font-size: 24px;
+    
+}
+
+.logout{
+    display: flex;
+}
+
+
+.logout h6{
+    padding: 10px;
+    color: white;
+}
+
+.h-left a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.h-right{
+    height: 40px;
+    width: 100px;
+    background-color: #ff6392;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: sans-serif;
+    font-weight: bold;
+    outline: transparent;
+
+}
+
+
+
+
+.h-right:hover{
+    background-color:#AA336A;
+    transition: 0.3s;
+    
+}
+
+.sidebar {
+   background-color: gainsboro;
+   color: black;    
+   height: 100%;
+   width: 0;
+   z-index: 1;
+   overflow-x: hidden;
+   transition: 0.5s;
+    
+}
+
+
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+
+
+  .closebtnflex{
+    display: flex;
+    background-color: #373F51;
+  }
+
+  .closebtn{
+    font-size: 30px;
+    color: white;
+    padding-right: 10px;;
+  }
+.addproduct {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:#373F51;
+    display:block;
+    width: 100%;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+.addproduct:hover {
+    background-color:#094074;
+    transition: 0.3s;
+}
+
+.addproduct-box {
+    
+    width: 100%;
+
+   
+    height: auto;
+    
+}
+
+.addproduct-form {
+    padding: 20px;
+}
+
+.input-box {
+    padding: 10px 20px;
+    width: 250px;
+}
+
+.product-list {
+    padding: 30px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#2B50AA;
+    color: white;
+}
+.product-list img{
+    width: 120px;
+    height: 120px;
+}
+
+.change-btn{
+    display: flex;
+}
+
+
+.edit{
+    height: 50px;
+    width: 60px;
+    background-color:rgb(58, 58, 255);
+    color: white;
+    border-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+  
+
+}
+
+.edit-tracking input{
+    height: 50px;
+    width: 60px;
+    background-color:rgb(58, 58, 255);
+    color: white;
+    border-color: transparent;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.edit a{
+    text-decoration: none;
+    color: white;
+}
+
+.edit:hover{
+    background-color:#2B50AA ;
+    transition: 0.3s;
+}
+
+
+
+
+.edit-tracking input:hover{
+    background-color:#2B50AA ;
+    transition: 0.3s;
+}
+
+.delete{
+    height: 50px;
+    width: 60px;
+    background-color: #ff6392;
+    color: white;
+    border-color: transparent;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 15px;
+   
+
+
+}
+
+
+.delete a{
+    text-decoration: none;
+    color: white;
+}
+.delete:hover{
+    background-color: #AA336A;
+    transition: 0.3s;
+}
+
+.adminsides{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.ordermanage{
+    padding: 15px;
+}
+
+.manageordertbl{
+    width: 100%;
+    
+}
+.orderhead{
+    background-color: #2B50AA;
+    color: white;
+    height: 30px;
+}
+
+
+.orderbody{
+    text-align: center;
+}
+
+
+
+textarea{
+    height: 100px;
+}
+
+
+
+.adminpaneltxt h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.adminpaneltxt{
+    width: 80%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.login-btn{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(0, 165, 0);
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+}
+
+
+.login-btn:hover{
+    background-color: darkgreen;
+    transition: 0.4s;
+}
+
+
+.admin-login-details{
+   
+        margin: auto;
+        height: 450px;
+        width: 735px;
+        background-color: #F2F2F2;
+        margin-top: 13%;
+        text-align: center;
+        vertical-align: middle;
+      
+}
+
+.image-update{
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.box table{
+    height: 150px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    border-color:lightgray ;
+}
+
+.box table thead{
+    height: 50px;
+    background-color: #2B50AA;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.box table tbody{
+    text-align: center;
+    
+}
+
+
+.flex-btn{
+    display: flex;
+    padding: 10px;
+}
+
+.option-btn{
+    height: 50px;
+    width: 60px;
+    background-color:rgb(58, 58, 255);
+    color: white;
+    border-color: transparent;
+}
+
+.flex-content{
+    display: flex;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tab-box ul.tabs {
+    margin: 0 0 20px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tab-box ul.tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tab-box ul.tabs li.current {
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+    margin: 0 0 30px;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+
+
+.review h3{
+
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+
+
+.review-content{
+
+    background-color:#ccc;
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.verified-user h5{
+    font-family: sans-serif;
+}
+
+.reply-section h4{
+    margin-top: 5px;
+}
+
+.reply-section p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.admin-reply-box{
+    height: 50px;
+    width: 500px;
+    outline: transparent;
+    padding-left: 5px;
+    margin-top: 5px;
+
+}
+
+.reply{
+    height: 50px;
+    width: 150px;
+    background-color: #ff6392;
+    outline: transparent;
+    border-radius: 10px;
+    border-color:transparent;
+    color: white;
+}
+
+
+.reply:hover{
+    background-color: #AA336A;
+    transition: 0.4s;
+}
+
+.product-info table{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #ddd;
+    
+  }
+
+  .product-info table thead{
+    height: 40px;
+  }
+  .success-box{
+    color: green;
+    font-size: 25px;
+  }
